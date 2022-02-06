@@ -15,6 +15,9 @@ export default function Home() {
         <p className="description">
           Under construction
         </p>
+        <p className="description">
+          ipravdin.official@gmail.com
+        </p>
       </main>
 
       <Footer />
