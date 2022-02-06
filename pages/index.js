@@ -14,7 +14,6 @@ export default function Home() {
         <Header title="IV" />
         <p className="description">
           Under construction
-          ipravdin.official@gmail.com
         </p>
       </main>
 
