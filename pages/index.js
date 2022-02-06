@@ -15,6 +15,7 @@ export default function Home() {
         <p className="description">
           Under construction
         </p>
+        <a href="https://clementine-porcupine-d9r5.squarespace.com/">Old website</a>
       </main>
 
       <Footer />
