@@ -27,6 +27,24 @@ export default function Home() {
                <p class="tagline">IV is a transdisciplinary researcher working with AI, emotions, perception, and more</p>
                <p class="tagline">&nbsp;</p>
             </section>
+	    <div class="gallery">
+               <div class="thumbnail">
+                  <h2 class="stats">RESUME</h2>
+                  <h3>GROUP EXHIBITIONS</h3>
+                  <p>Envision Arts, Mythical, February - March 2021</p>
+                  <p>ArtNumber23, New Era, March 2021</p>
+                  <p>Biennial, MOWNA, April - September 2021</p>
+                  <p>Computer Vision Art Gallery, CVPR 2021</p>
+                  <p>META-MENAGERIE, Ars Electronica Garden NYC 2021</p>
+                  <p>&nbsp;</p>
+                  <h3>PROJECTS</h3>
+                  <p>"This Show is Curated by a Machine" at MOWNA, 2021</p>
+                  <p>3D AI Art workshop at Global AI Summit, 2021</p>
+                  <p>Pan-Pot Virtual Unreality performance, 2021</p>
+                  <p>Future East Festival Virtual Environment, 2021</p>
+                  <p>&nbsp;</p>
+               </div>
+            </div>
 	    </main>
       
    </div>
