@@ -4,7 +4,9 @@ import Footer from '@components/Footer'
 
 export default function Home() {
     return (
-        
+        <div class="container">
+        <h1>HI</h1>
+        </div>
         )
   
 }
