@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import img_src from '../images/background.jpg'
+import img_src from '../images/3dcollages1.jpg'
 
 export default function Home() {
     return (
