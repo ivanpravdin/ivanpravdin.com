@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Image from '../images/background.jpg'
+import img_src from '../images/background.jpg'
 
 export default function Home() {
     return (
@@ -53,7 +53,7 @@ export default function Home() {
                   <h3>3D Collages</h3>
                   <div class="row">
                      <div class="column">
-                        <Image src={Image}  style={{ width: '100%' }} />
+                        <Image src={img_src}  style={{ width: '100%' }} />
                      </div>
                      <div class="column">
                         
