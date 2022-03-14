@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Image from '../images/background.jpg'
 
 export default function Home() {
     return (
@@ -51,7 +52,7 @@ export default function Home() {
                   <h3>3D Collages</h3>
                   <div class="row">
                      <div class="column">
-                        <img src={require("../images/background.jpg")}  style={{ width: '100%' }} />
+                        <img src={Image}  style={{ width: '100%' }} />
                      </div>
                      <div class="column">
                         
