@@ -12,9 +12,9 @@ export default function Home() {
 	   
    </head>
    <div id="wrapper">
-	    <body>
+	    <main>
 	    <p>hiii</p>
-	    </body>
+	    </main>
       
    </div>
 	   </div>
