@@ -4,7 +4,6 @@ import Footer from '@components/Footer'
 
 export default function Home() {
     return (
-      < !doctype html >
         <html lang="en-US">
             <head>
                 <meta charset="utf-8">
