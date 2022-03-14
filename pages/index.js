@@ -13,7 +13,15 @@ export default function Home() {
    </head>
    <div id="wrapper">
 	    <main>
-	    <p>hiii</p>
+	    <header>
+               <h1 class="rainbow-text rainbow" >IV</h1>
+               <nav>
+                  <a href="mailto:ipravdin.official@gmail.com"><u>🖂 EMAIL 🖂</u></a><br/><br/>
+                  <a href="https://vimeo.com/user130931720"><u>🖭 VIMEO 🖭</u></a><br/><br/>
+                  <a href="https://www.instagram.com/it.is.iv/"><u>🖻 INSTAGRAM 🖻</u></a><br/><br/>
+                  <a href="https://foundation.app/@it.is.iv"><u>▲◉◼ FOUNDATION ▲◉◼</u></a><br/><br/>
+               </nav>
+            </header>
 	    </main>
       
    </div>
