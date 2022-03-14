@@ -6,10 +6,10 @@ export default function Home() {
     return (
         <html lang="en-US">
    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css"></link>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css" />
       <title>IV</title>
    </head>
    <div id="wrapper">
@@ -18,10 +18,10 @@ export default function Home() {
             <header>
                <h1 class="rainbow-text rainbow" >IV</h1>
                <nav>
-                  <a href="mailto:ipravdin.official@gmail.com"><u>🖂 EMAIL 🖂</u></a><br><br>
-                  <a href="https://vimeo.com/user130931720"><u>🖭 VIMEO 🖭</u></a><br><br>
-                  <a href="https://www.instagram.com/it.is.iv/"><u>🖻 INSTAGRAM 🖻</u></a><br><br>
-                  <a href="https://foundation.app/@it.is.iv"><u>▲◉◼ FOUNDATION ▲◉◼</u></a><br><br>
+                  <a href="mailto:ipravdin.official@gmail.com"><u>🖂 EMAIL 🖂</u></a><br/><br/>
+                  <a href="https://vimeo.com/user130931720"><u>🖭 VIMEO 🖭</u></a><br/><br/>
+                  <a href="https://www.instagram.com/it.is.iv/"><u>🖻 INSTAGRAM 🖻</u></a><br/><br/>
+                  <a href="https://foundation.app/@it.is.iv"><u>▲◉◼ FOUNDATION ▲◉◼</u></a><br/><br/>
                </nav>
             </header>
             <section class="about" id="about">
@@ -53,13 +53,13 @@ export default function Home() {
                   <h3>3D Collages</h3>
                   <div class="row">
                      <div class="column">
-                        <img src="images/3dcollages1.jpg"  style="width:100%">
+                        <img src="images/3dcollages1.jpg"  style="width:100%" />
                      </div>
                      <div class="column">
-                        <img src="images/3dcollages2.jpg"  style="width:100%">
+                        <img src="images/3dcollages2.jpg"  style="width:100%" />
                      </div>
                      <div class="column">
-                        <img src="images/3dcollages3.jpg"  style="width:100%">
+                        <img src="images/3dcollages3.jpg"  style="width:100%" />
                      </div>
                   </div>
                   <p>&nbsp;</p>
