@@ -25,7 +25,7 @@ export default function Home() {
 	    <section class="about" id="about">
                <h2 class="hero_header">ABOUT<span class="light"></span></h2>
                <p class="tagline">IV is a transdisciplinary researcher working with AI, emotions, perception, and more</p>
-               <p class="tagline">&nbsp;</p>
+               <br/>
             </section>
 	    <div class="gallery">
                <div class="thumbnail">
@@ -36,13 +36,13 @@ export default function Home() {
                   <p>Biennial, MOWNA, April - September 2021</p>
                   <p>Computer Vision Art Gallery, CVPR 2021</p>
                   <p>META-MENAGERIE, Ars Electronica Garden NYC 2021</p>
-                  <p>&nbsp;</p>
+                  <br/>
                   <h3>PROJECTS</h3>
                   <p>"This Show is Curated by a Machine" at MOWNA, 2021</p>
                   <p>3D AI Art workshop at Global AI Summit, 2021</p>
                   <p>Pan-Pot Virtual Unreality performance, 2021</p>
                   <p>Future East Festival Virtual Environment, 2021</p>
-                  <p>&nbsp;</p>
+                  <br/>
                </div>
             </div>
 	    <div class="gallery">
@@ -51,7 +51,7 @@ export default function Home() {
                   <h3>3D Collages</h3>
                   <div class="row">
                      <div class="column">
-                        
+                        <img src="../images/3dcollages1.jpg"  style="width:100%" />
                      </div>
                      <div class="column">
                         
@@ -60,7 +60,7 @@ export default function Home() {
                         
                      </div>
                   </div>
-				   <p>&nbsp;</p>
+				   <br/>
 				   
                
 				</div>
