@@ -6,7 +6,15 @@ export default function Home() {
     return (
         <div class="container">
    <head>
-      
+      <style>
+                                    main {
+                                        background: url("images/background.jpg") no-repeat center center fixed;
+                                    -webkit-background-size: cover;
+                                    -moz-background-size: cover;
+                                    -o-background-size: cover;
+                                    background-size: cover;
+         }
+                     </style>
 	  
       <title>IV</title>
 	   
