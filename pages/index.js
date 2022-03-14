@@ -11,15 +11,6 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
       <title>IV</title>
-      <style>
-         html {
-         background: url("images/background.jpg") no-repeat center center fixed;
-         -webkit-background-size: cover;
-         -moz-background-size: cover;
-         -o-background-size: cover;
-         background-size: cover;
-         }
-      </style>
    </head>
    <div id="wrapper">
       <body>
