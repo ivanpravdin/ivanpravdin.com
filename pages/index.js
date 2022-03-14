@@ -2,7 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import img_src from '../images/3dcollages1.jpg'
+import collages3d1 from '../images/3dcollages1.jpg'
+import collages3d2 from '../images/3dcollages2.jpg'
+import collages3d3 from '../images/3dcollages3.jpg'
 
 export default function Home() {
     return (
@@ -53,13 +55,13 @@ export default function Home() {
                   <h3>3D Collages</h3>
                   <div class="row">
                      <div class="column">
-                        <Image src={img_src}  style={{ width: '100%' }} />
+                        <Image src={collages3d1}  style={{ width: '100%' }} />
                      </div>
                      <div class="column">
-                        
+                        <Image src={collages3d2}  style={{ width: '100%' }} />
                      </div>
                      <div class="column">
-                        
+                        <Image src={collages3d3}  style={{ width: '100%' }} />
                      </div>
                   </div>
 				   <br/>
