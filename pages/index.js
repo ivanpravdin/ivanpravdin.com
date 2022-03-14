@@ -45,6 +45,30 @@ export default function Home() {
                   <p>&nbsp;</p>
                </div>
             </div>
+	    <div class="gallery">
+               <div class="thumbnail">
+                  <h2 class="stats">WORKS</h2>
+                  <h3>3D Collages</h3>
+                  <div class="row">
+                     <div class="column">
+                        <img src="../images/3dcollages1.jpg"  style="width:100%">
+                     </div>
+                     <div class="column">
+                        <img src="../images/3dcollages2.jpg"  style="width:100%">
+                     </div>
+                     <div class="column">
+                        <img src="../images/3dcollages3.jpg"  style="width:100%">
+                     </div>
+                  </div>
+				   <p>&nbsp;</p>
+				   
+               
+				</div>
+            </div>
+         
+         <footer>
+            <p>&nbsp;</p>
+         </footer>
 	    </main>
       
    </div>
