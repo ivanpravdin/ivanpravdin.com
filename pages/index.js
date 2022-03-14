@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Image from '../images/backgrounxzfd.jpg'
+import Image from '../images/background.jpg'
 
 export default function Home() {
     return (
