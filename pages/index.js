@@ -22,6 +22,11 @@ export default function Home() {
                   <a href="https://foundation.app/@it.is.iv"><u>▲◉◼ FOUNDATION ▲◉◼</u></a><br/><br/>
                </nav>
             </header>
+	    <section class="about" id="about">
+               <h2 class="hero_header">ABOUT<span class="light"></span></h2>
+               <p class="tagline">IV is a transdisciplinary researcher working with AI, emotions, perception, and more</p>
+               <p class="tagline">&nbsp;</p>
+            </section>
 	    </main>
       
    </div>
