@@ -52,7 +52,7 @@ export default function Home() {
                   <h3>3D Collages</h3>
                   <div class="row">
                      <div class="column">
-                        <img src={require('./1.jpg').default}  style={{ width: '100%' }} />
+                        <img src={require('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg').default}  style={{ width: '100%' }} />
                      </div>
                      <div class="column">
                         
