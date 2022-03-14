@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import 3dcollages1 from '../images/3dcollages1.jpg'
 
 export default function Home() {
     return (
@@ -51,7 +52,7 @@ export default function Home() {
                   <h3>3D Collages</h3>
                   <div class="row">
                      <div class="column">
-                        <img src="../images/3dcollages1.jpg"  style="width:100%" />
+                        <img src={3dcollages1}  style="width:100%" />
                      </div>
                      <div class="column">
                         
