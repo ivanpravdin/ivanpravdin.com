@@ -51,7 +51,7 @@ export default function Home() {
             </div>
 	    <div class="gallery">
                <div class="thumbnail">
-                  <h2 class="stats">WORKS</h2>
+                  <h2 class="stats">SELECTED WORKS</h2>
                   <h3>3D Collages</h3>
                   <div class="row">
                      <div class="column">
