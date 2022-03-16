@@ -20,10 +20,10 @@ export default function Home() {
 	    <header>
                <h1 class="rainbow-text rainbow" >IV</h1>
                <nav>
-                  <a href="mailto:ipravdin.official@gmail.com"><u><u class='symbol'>🖂</u> EMAIL <u class='symbol'>🖂</u></a><br><br>
-                  <a href="https://vimeo.com/user130931720"><u><u class='symbol'>🖭</u> VIMEO <u class='symbol'>🖭</u></u></a><br><br>
-                  <a href="https://www.instagram.com/it.is.iv/"><u><u class='symbol'>🖻</u> INSTAGRAM <u class='symbol'>🖻</u></u></a><br><br>
-                  <a href="https://foundation.app/@it.is.iv"><u><u class='symbol'>▲◉◼</u> FOUNDATION <u class='symbol'>▲◉◼</u></u></a><br><br>
+                  <a href="mailto:ipravdin.official@gmail.com"><u><u class="symbol">🖂</u> EMAIL <u class='symbol'>🖂</u></u></a><br/><br/>
+                  <a href="https://vimeo.com/user130931720"><u><u class="symbol">🖭</u> VIMEO <u class='symbol'>🖭</u></u></a><br/><br/>
+                  <a href="https://www.instagram.com/it.is.iv/"><u><u class="symbol">🖻</u> INSTAGRAM <u class='symbol'>🖻</u></u></a><br/><br/>
+                  <a href="https://foundation.app/@it.is.iv"><u><u class="symbol">▲◉◼</u> FOUNDATION <u class='symbol'>▲◉◼</u></u></a><br/><br/>
                </nav>
             </header>
 	    <section class="about" id="about">
