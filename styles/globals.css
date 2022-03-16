@@ -145,4 +145,14 @@ html {
 	html{
 		background:#000000;
 	}
+	
+	.symbol{
+		opacity: 0%;
+	}
+	
+	.column {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
 }
