@@ -52,7 +52,7 @@ export default function Home() {
 	    <div class="gallery">
                <div class="thumbnail">
                   <h2 class="stats">EDUCATION</h2>
-                  <p>School of the Museum of Fine Arts at Tufts University, BFA, 2022 - present</p>
+                  <p>School of the Museum of Fine Arts at Tufts University, BFA + BA/BS, 2022 - present</p>
                   <br/>
                </div>
             </div>
