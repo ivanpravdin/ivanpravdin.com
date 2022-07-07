@@ -56,26 +56,7 @@ export default function Home() {
                   <br/>
                </div>
             </div>
-	    <div class="gallery">
-               <div class="thumbnail">
-                  <h2 class="stats">SELECTED WORKS</h2>
-                  <h3>3D Collages</h3>
-                  <div class="row">
-                     <div class="column">
-                        <Image src={collages3d1}  style={{ width: '100%' }} />
-                     </div>
-                     <div class="column">
-                        <Image src={collages3d2}  style={{ width: '100%' }} />
-                     </div>
-                     <div class="column">
-                        <Image src={collages3d3}  style={{ width: '100%' }} />
-                     </div>
-                  </div>
-				   <br/>
-				   
-               
-				</div>
-            </div>
+	    
          
          <footer>
            <br/>
