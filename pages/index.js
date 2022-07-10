@@ -16,6 +16,10 @@ export default function Home() {
 	   
    </head>
    <div id="wrapper">
+	   <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+	   <script type="module">
+		   new cursoreffects.ghostCursor();
+	   </script>
 	    <main>
 	    <header>
                <h1 class="rainbow-text rainbow" >IV</h1>
