@@ -32,7 +32,7 @@ export default function Home() {
             </header>
 	    <section class="about" id="about">
                <h2 class="hero_header">ABOUT<span class="light"></span></h2>
-               <p class="tagline">IV is a transdisciplinary researcher working with AI, emotions, perception, and more</p>
+               <p class="tagline">IV is a transdisciplinary creator working with AI, code, performance, and more</p>
                <br/>
             </section>
 	    <div class="gallery">
