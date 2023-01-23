@@ -18,7 +18,7 @@ export default function Home() {
    <div id="wrapper">
 	   <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
 	   <script type="module">
-		   new cursoreffects.fairyDustCursor({colors: ["#ff0000", "#00ff00", "#0000ff"]});
+		   new cursoreffects.fairyDustCursor();
 	   </script>
 	    <main>
 	    <header>
