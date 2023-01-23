@@ -50,6 +50,11 @@ export default function Home() {
                   <p>3D AI Art workshop at Global AI Summit, 2021</p>
                   <p>Pan-Pot Virtual Unreality performance, 2021</p>
                   <p>Future East Festival Virtual Environment, 2021</p>
+		  <p>Sculptures for ___WIRE metaverse, 2022</p>
+		  <p>Vibration Check Live Coding performance, NYC, 2022</p>
+		  <p>HarvardHack project, 2022</p>
+		  <p>Technopagan Solsitice Algorave Live Coding performance, NYC, 2022</p>
+	 	  <p>MIT Reality Hack project, 2022</p>
                   <br/>
                </div>
             </div>
