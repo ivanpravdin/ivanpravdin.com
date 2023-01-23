@@ -54,7 +54,7 @@ export default function Home() {
 		  <p>Vibration Check Live Coding performance, NYC, 2022</p>
 		  <p>HarvardHack project, 2022</p>
 		  <p>Technopagan Solsitice Algorave Live Coding performance, NYC, 2022</p>
-	 	  <p>MIT Reality Hack project, 2022</p>
+	 	  <p>MIT Reality Hack project, 2023</p>
                   <br/>
                </div>
             </div>
