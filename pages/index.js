@@ -11,7 +11,7 @@ export default function Home() {
     <link rel="stylesheet" href="/styles/globals.css"></link>
 </head>
 
-<body class="root">
+<body>
     <div class="gradient"></div>
 
     <div class="card">
