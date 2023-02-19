@@ -29,11 +29,11 @@ export default function Home() {
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-size@2.8.0/tsparticles.updater.size.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-links@2.8.0/tsparticles.preset.links.min.js"></script>
     <script type="text/javascript">
-        (async () => {
+        async () => {
             await loadLinksPreset(tsParticles);
 
             await tsParticles.load("tsparticles", { preset: "links" });
-        })();
+        }();
     </script>
     <div class="card-client">
         <p class="name-client"> Hi! My name is IV!
