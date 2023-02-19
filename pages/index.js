@@ -12,7 +12,18 @@ export default function Home() {
             </head>
 
             <body class="root">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+                 <script type="module">
+                    window.onload = function() {
+                        Particles.init({
+                            selector: '.background',
+                            connectParticles: true,
+                            color: ["#ffffff"]
+                        })
+                    };
+                </script>
                 <canvas class="background"></canvas>
+                
                
                 <div class="card-client">
                     <p class="name-client"> Hi! My name is IV!
@@ -36,16 +47,7 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-                 <script type="module">
-                    window.onload = function() {
-                        Particles.init({
-                            selector: '.background',
-                            connectParticles: true,
-                            color: ["#ffffff"]
-                        })
-                    };
-                </script>
+                
             </body>
         </div>
     )
