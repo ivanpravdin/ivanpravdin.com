@@ -1,158 +1,169 @@
 @charset "UTF-8";
 
-#wrapper { 
-	width: 70%;
-	margin: 0 auto; 
-	max-width: 1000px;
-	text-align: center;
-	color: white;
-} 
-
-a { 
-color: #4241DF;
- text-decoration: none; 
+.root {
+    background-color: #212121;
 }
 
-a:hover{
-	color: aqua;
+.card {
+    font-family: monospace;
+    margin-top: 40px;
+    width: 500px;
+    height: 300px;
+    background: #292828eb;
+    border: 2px solid #000;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    -webkit-transform: translate(-50%, -70%);
+    -moz-transform: translate(-50%, -70%);
+    -ms-transform: translate(-50%, -70%);
+    -o-transform: translate(-50%, -70%);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
-p{
-	padding-left: 0px;
-	
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
 }
 
-.rainbow-text{
-  font-family: "Times New Roman", "serif";
-font-size: 50px;
-  text-align:center;
+.dots {
+    display: flex;
+    justify-content: last baseline;
 }
 
-.rainbow-bg{
-		animation: rainbow-bg 2.5s linear;
-		animation-iteration-count: infinite;
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
 
-.rainbow{
-		animation: rainbow 2.5s linear;
-		animation-iteration-count: infinite;
+.dot-1 {
+    background-color: rgb(0, 132, 255);
 }
 
-@keyframes rainbow-bg{
-		100%,0%{
-			background-color: rgb(255,0,0);
-		}
-		8%{
-			background-color: rgb(255,127,0);
-		}
-		16%{
-			background-color: rgb(255,255,0);
-		}
-		25%{
-			background-color: rgb(127,255,0);
-		}
-		33%{
-			background-color: rgb(0,255,0);
-		}
-		41%{
-			background-color: rgb(0,255,127);
-		}
-		50%{
-			background-color: rgb(0,255,255);
-		}
-		58%{
-			background-color: rgb(0,127,255);
-		}
-		66%{
-			background-color: rgb(0,0,255);
-		}
-		75%{
-			background-color: rgb(127,0,255);
-		}
-		83%{
-			background-color: rgb(255,0,255);
-		}
-		91%{
-			background-color: rgb(255,0,127);
-		}
+.dot-2 {
+    background-color: rgb(255, 0, 89);
 }
 
-@keyframes rainbow{
-		100%,0%{
-			color: rgb(255,0,0);
-		}
-		8%{
-			color: rgb(255,127,0);
-		}
-		16%{
-			color: rgb(255,255,0);
-		}
-		25%{
-			color: rgb(127,255,0);
-		}
-		33%{
-			color: rgb(0,255,0);
-		}
-		41%{
-			color: rgb(0,255,127);
-		}
-		50%{
-			color: rgb(0,255,255);
-		}
-		58%{
-			color: rgb(0,127,255);
-		}
-		66%{
-			color: rgb(0,0,255);
-		}
-		75%{
-			color: rgb(127,0,255);
-		}
-		83%{
-			color: rgb(255,0,255);
-		}
-		91%{
-			color: rgb(255,0,127);
-		}
+.dot-3 {
+    background-color: rgb(0, 255, 89);
 }
 
-* {
-  box-sizing: border-box;
+.top p {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.dot,
+.top p {
+    margin: 5px;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.g-color {
+    color: darkgreen;
 }
 
-html {
-                                    background: #000000/*url("../images/background.jpg") no-repeat center center fixed*/;
-                                    -webkit-background-size: cover;
-                                    -moz-background-size: cover;
-                                    -o-background-size: cover;
-                                    background-size: cover;
-         }
+.bottom {
+    margin-top: 30px;
+    padding: 0 25px;
+}
 
-@media screen and (max-device-width: 1000px){
-	html{
-		background:#000000;
-	}
-	
-	.symbol{
-		opacity: 0%;
-	}
-	
-	.column {
-  float: left;
-  width: 100%;
-  padding: 5px;
+.code {
+    font-size: 15px;
 }
+
+.red {
+    color: rgb(210, 63, 52);
 }
+
+.violet {
+    color: rgb(181, 40, 203);
+}
+
+.blue {
+    color: rgb(91, 131, 223);
+}
+
+.orange {
+    color: rgb(195, 128, 3);
+}
+
+.white {
+    color: rgb(163, 163, 163);
+}
+
+.space-4 {
+    margin-left: 35px;
+}
+
+.space-4x2 {
+    margin-left: 70px;
+}
+
+a.resume:link,
+a.resume:visited {
+    background-color: #ce36f4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.linkedin:link,
+a.linkedin:visited {
+    background-color: #7836f4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .gradient {
+    --size: 250px;
+    --speed: 50s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+    width: var(--size);
+    height: var(--size);
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(hsl(158, 82, 57, 85%), hsl(252, 82, 57));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    -webkit-animation: rotate var(--speed) var(--easing) alternate infinite;
+}
+  
+  @media (min-width: 720px) {
+    .gradient {
+      --size: 500px;
+    }
+  }
+  
+  body {
+    background-color: #222;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* This is just to transition when you change the viewport size. */
+  * {
+    transition: all 0.25s ease-out;
+  }
