@@ -5,7 +5,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
     return (
-        
+        <div class="container">
 	   <head>
     <title>IV Pravdin</title>
     <link rel="stylesheet" href="/styles/globals.css"></link>
@@ -60,5 +60,6 @@ export default function Home() {
     </div>
 
 </body>
+	</div>
 	)
 }
