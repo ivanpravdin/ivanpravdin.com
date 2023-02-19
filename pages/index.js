@@ -12,7 +12,7 @@ export default function Home() {
             </head>
 
             <body class="root">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+        <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.0/particles.min.js"></script>
                  <script type="module">
                     window.onload = function() {
                         Particles.init({
