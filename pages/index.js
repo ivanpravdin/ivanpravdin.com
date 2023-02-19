@@ -8,20 +8,17 @@ export default function Home() {
         <div class="container">
             <head>
                 <title>IV Pravdin</title>
-                <link rel="stylesheet" href="./styles.css"></link>
+                <link rel="stylesheet" href=".styles/globals.css"></link>
             </head>
 
             <body class="root">
-                <div id="tsparticles"></div>
-
-
-
-
+                <canvas class="background"></canvas>
                 <script type="module">
                     window.onload = function() {
                         Particles.init({
                             selector: '.background',
-                            connectParticles: true
+                            connectParticles: true,
+                            color: ["#ffffff"]
                         })
                     };
                 </script>
@@ -47,7 +44,6 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
-                <canvas class="background"></canvas>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
             </body>
         </div>
