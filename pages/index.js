@@ -31,7 +31,7 @@ export default function Home() {
                     class="white">i</span> <span class="red">=</span> <span class="blue">0</span> <span class="white">;
                     i</span> <span class="red">&lt;</span> <span class="blue">10</span> <span class="white">;
                     i</span><span class="red">++</span><span class="orange">)</span><span
-                    class="orange space-4">{</span></span><br></br>
+                    class="orange space-4">{</span><br></br>
                 <span class="blue space-4x2">console</span><span class="white">.</span><span
                     class="violet">log(</span><span class="blue">`</span><span class="orange">Hi! My name is
                     IV.</span><span class="blue">`</span><span class="violet">)</span><span class="white">;</span><br></br>
