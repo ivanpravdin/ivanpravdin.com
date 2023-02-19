@@ -3,7 +3,11 @@ import '@styles/globals.css'
 if (typeof window !== "undefined") {
   // window.addEventListener("load", () => console.log("LOADED"));
   document.addEventListener("DOMContentLoaded", () =>
-    console.log("DOMContentLoaded")
+    Particles.init({
+                            selector: '.background',
+                            connectParticles: true,
+                            color: ["#ffffff"]
+                        })
   );
 }
 
