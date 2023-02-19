@@ -8,7 +8,7 @@ export default function Home() {
         
 	   <head>
     <title>IV Pravdin</title>
-    <link rel="stylesheet" href="/styles/globals.css">
+    <link rel="stylesheet" href="/styles/globals.css"></link>
 </head>
 
 <body class="root">
@@ -26,34 +26,34 @@ export default function Home() {
         <div class="bottom">
             <p class="code">
                 <span class="red">function</span> <span class="violet">hello</span><span class="blue">(</span><span
-                    class="blue">)</span><span class="blue">{</span><br>
+                    class="blue">)</span><span class="blue">{</span><br></br>
                 <span class="red space-4">for</span><span class="orange">(</span><span class="red">let</span> <span
                     class="white">i</span> <span class="red">=</span> <span class="blue">0</span> <span class="white">;
                     i</span> <span class="red">&lt;</span> <span class="blue">10</span> <span class="white">;
                     i</span><span class="red">++</span><span class="orange">)</span><span
-                    class="orange space-4">{</span></span><br>
+                    class="orange space-4">{</span></span><br></br>
                 <span class="blue space-4x2">console</span><span class="white">.</span><span
                     class="violet">log(</span><span class="blue">`</span><span class="orange">Hi! My name is
-                    IV.</span><span class="blue">`</span><span class="violet">)</span><span class="white">;</span><br>
+                    IV.</span><span class="blue">`</span><span class="violet">)</span><span class="white">;</span><br></br>
                 <span class="blue space-4x2">console</span><span class="white">.</span><span
                     class="violet">log(</span><span class="blue">`</span><span class="orange">I am a CS student at
                     Tufts.</span><span class="blue">`</span><span class="violet">)</span><span
-                    class="white">;</span><br>
+                    class="white">;</span><br></br>
                 <span class="blue space-4x2">console</span><span class="white">.</span><span
                     class="violet">log(</span><span class="blue">`</span><span class="orange">You can find my resume <a
                         class="resume"
                         href="https://drive.google.com/file/d/1xP38WneC1cDi0XH9ZRbZ3PcYdNlaMiOR/view?usp=sharing">here</a>.</span><span
-                    class="blue">`</span><span class="violet">)</span><span class="white">;</span><br>
+                    class="blue">`</span><span class="violet">)</span><span class="white">;</span><br></br>
                 <span class="blue space-4x2">console</span><span class="white">.</span><span
                     class="violet">log(</span><span class="blue">`</span><span class="orange">And my LinkedIn <a
                         class="linkedin" href="https://www.linkedin.com/in/iv-pravdin/">here</a>.</span><span
-                    class="blue">`</span><span class="violet">)</span><span class="white">;</span><br>
+                    class="blue">`</span><span class="violet">)</span><span class="white">;</span><br></br>
                 <span class="blue space-4x2">console</span><span class="white">.</span><span
                     class="violet">log(</span><span class="blue">`</span><span class="orange">Have a nice
-                    day!</span><span class="blue">`</span><span class="violet">)</span><span class="white">;</span><br>
-                <span class="orange space-4">}</span><br>
-                <span class="blue">}</span><br>
-                <br>
+                    day!</span><span class="blue">`</span><span class="violet">)</span><span class="white">;</span><br></br>
+                <span class="orange space-4">}</span><br></br>
+                <span class="blue">}</span><br></br>
+                <br></br>
                 <span class="violet">hello</span><span class="blue">()</span><span class="white">;</span>
             </p>
         </div>
