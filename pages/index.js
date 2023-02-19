@@ -26,12 +26,12 @@ export default function Home() {
         <div class="bottom">
             <p class="code">
                 <span class="red">function</span> <span class="violet">hello</span><span class="blue">(</span><span
-                    class="blue">)</span><span class="blue">/{</span><br></br>
+                    class="blue">)</span><span class="blue">"{"</span><br></br>
                 <span class="red space-4">for</span><span class="orange">(</span><span class="red">let</span> <span
                     class="white">i</span> <span class="red">=</span> <span class="blue">0</span> <span class="white">;
                     i</span> <span class="red">&lt;</span> <span class="blue">10</span> <span class="white">;
                     i</span><span class="red">++</span><span class="orange">)</span><span
-                    class="orange space-4">/{</span><br></br>
+                    class="orange space-4">"{"</span><br></br>
                 <span class="blue space-4x2">console</span><span class="white">.</span><span
                     class="violet">log(</span><span class="blue">`</span><span class="orange">Hi! My name is
                     IV.</span><span class="blue">`</span><span class="violet">)</span><span class="white">;</span><br></br>
