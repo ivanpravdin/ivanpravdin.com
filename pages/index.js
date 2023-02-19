@@ -45,15 +45,7 @@ export default function Home() {
                     </div>
                 </div>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-                 <script type="module">
-                    window.onload = function() {
-                        Particles.init({
-                            selector: '.background',
-                            connectParticles: true,
-                            color: ["#ffffff"]
-                        })
-                    };
-                 </script>
+                 
             </body>
         </div>
     )
