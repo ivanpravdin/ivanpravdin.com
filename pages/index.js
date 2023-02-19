@@ -13,15 +13,7 @@ export default function Home() {
 
             <body class="root">
                 <canvas class="background"></canvas>
-                <script type="module">
-                    window.onload = function() {
-                        Particles.init({
-                            selector: '.background',
-                            connectParticles: true,
-                            color: ["#ffffff"]
-                        })
-                    };
-                </script>
+               
                 <div class="card-client">
                     <p class="name-client"> Hi! My name is IV!
                         <span>I am a CS student at Tufts.
