@@ -8,7 +8,7 @@ export default function Home() {
         
 	   <head>
     <title>IV Pravdin</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="/styles/global.css">
 </head>
 
 <body class="root">
