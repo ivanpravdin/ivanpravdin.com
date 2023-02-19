@@ -7,10 +7,8 @@ export default function Home() {
     return (
         <div class="container">
 <head>
-    <title>Our Funky HTML Page</title>
-    <link rel="stylesheet" href="./styles.css">
-    <meta name="description" content="Our first page">
-    <meta name="keywords" content="html tutorial template">
+    <title>IV Pravdin</title>
+    <link rel="stylesheet" href="./styles.css"></link>
 </head>
 
 <body class="root">
