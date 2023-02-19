@@ -21,7 +21,7 @@ export default function Home() {
                     <p class="name-client"> Hi! My name is IV!
                         <span>I am a CS student at Tufts.
                         </span>
-                        <button href="https://drive.google.com/file/d/1xP38WneC1cDi0XH9ZRbZ3PcYdNlaMiOR/view?usp=sharing"> Resume
+                        <button onclick="window.location.href='https://drive.google.com/file/d/1xP38WneC1cDi0XH9ZRbZ3PcYdNlaMiOR/view?usp=sharing';"> Resume
                         </button>
                     </p>
                     <div class="social-media">
