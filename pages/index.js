@@ -12,15 +12,6 @@ export default function Home() {
             </head>
 
             <body class="root">
-         <script type="module">
-                    window.onload = function() {
-                        Particles.init({
-                            selector: '.background',
-                            connectParticles: true,
-                            color: ["#ffffff"]
-                        })
-                    };
-                </script>
         <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.0/particles.min.js"></script>
                 
                 <canvas class="background"></canvas>
