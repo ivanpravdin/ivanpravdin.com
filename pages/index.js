@@ -30,8 +30,7 @@ export default function Home() {
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-links@2.8.0/tsparticles.preset.links.min.js"></script>
     <script type="text/javascript">
         async () => {
-            await loadLinksPreset(tsParticles);
-
+            await loadLinksPreset(tsParticles)};
             await tsParticles.load("tsparticles", { preset: "links" });
         }();
     </script>
