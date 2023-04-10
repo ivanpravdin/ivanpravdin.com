@@ -18,7 +18,7 @@ export default function Home() {
                 
                
                 <div class="card-client">
-                    <p class="name-client"> Hi! My name is IV!
+                    <p class="name-client"> Hi! My name is Ivan!
                         <span>I am a CS student at Tufts.
                         </span>
                         <a href="https://drive.google.com/file/d/1xP38WneC1cDi0XH9ZRbZ3PcYdNlaMiOR/view?usp=sharing" class="button"> Resume
