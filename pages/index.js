@@ -8,6 +8,7 @@ export default function Home() {
         <div class="container">
             <head>
                 <title>IV Pravdin</title>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"></link>
                 <link rel="stylesheet" href="./styles/globals.css"></link>
             </head>
 
