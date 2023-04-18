@@ -1,6 +1,7 @@
 import '@styles/globals.css'
 
-if(window.innerWidth > 1100){ // pJS_desktop and pJS_mobile = my settings functions
+useEffect(() => {
+  if(window.innerWidth > 1100){ // pJS_desktop and pJS_mobile = my settings functions
 if (typeof window !== "undefined") {
   // window.addEventListener("load", () => console.log("LOADED"));
   document.addEventListener("DOMContentLoaded", () =>
@@ -11,6 +12,8 @@ if (typeof window !== "undefined") {
                         })
   );
 }}
+}, []);
+
 
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />
