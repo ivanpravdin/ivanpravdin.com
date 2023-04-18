@@ -1,6 +1,7 @@
 import '@styles/globals.css'
 
 if (typeof window !== "undefined") {
+  if(window.innerWidth > 1100){
   // window.addEventListener("load", () => console.log("LOADED"));
   document.addEventListener("DOMContentLoaded", () =>
     Particles.init({
@@ -9,7 +10,7 @@ if (typeof window !== "undefined") {
                             color: ["#ffffff"]
                         })
   );
-}
+}}
 
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />
