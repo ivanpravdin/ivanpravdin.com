@@ -22,7 +22,7 @@ export default function Home() {
                     <p class="name-client"> Hi! My name is Ivan!
                         <span>I am a CS student at Tufts.
                         </span>
-                        <a href="https://drive.google.com/file/d/1xP38WneC1cDi0XH9ZRbZ3PcYdNlaMiOR/view?usp=sharing" class="button"> Resume
+                        <a href="https://drive.google.com/file/d/1oTJ5T0Pyyo7z0G8Od8WGk6QrA-JT4Nml/view?usp=sharing" class="button"> Resume
                         </a>
                     </p>
                     <div class="social-media">
